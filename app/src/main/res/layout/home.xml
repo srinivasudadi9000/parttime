@@ -27,6 +27,25 @@
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/simplesplash_withsmallneedle"
+        android:text="Simple Splash Screen with   Animation only small needle"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/simplesplash_withbigneedle"
+        android:text="Simple Splash Screen with Animation only Big  needle"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/simplesplash_withbigneedlewithcolor"
+        android:text="Simple Splash Screen with Animation only Big needle with color change"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
 

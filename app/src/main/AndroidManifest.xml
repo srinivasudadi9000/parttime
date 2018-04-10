@@ -41,7 +41,11 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".SimpleSplash"></activity>
         <activity android:name=".SimpleSplash_withsmall_anim"></activity>
-        <activity android:name=".SimpleSplash_withbig_anim"></activity>
+        <activity android:name=".SimpleSplash_withbig_anim"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SimpleSplash_withsmall_needle"></activity>
+        <activity android:name=".SimpleSplash_withbig_needle"></activity>
+        <activity android:name=".SimpleSplash_withbig_needle_withcolor"></activity>
     </application>
 
 </manifest>

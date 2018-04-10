@@ -10,9 +10,9 @@
     tools:context="com.example.admin.myapplication.Home">
 
     <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
@@ -22,20 +22,19 @@
             android:src="@drawable/partime_logo_dadi" />
 
     </LinearLayout>
-
     <RelativeLayout
-
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
-
+        android:layout_height="match_parent">
         <ImageView
             android:id="@+id/needle"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="0dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/needletww_only"
             android:layout_marginRight="0dp"
-            android:src="@drawable/needletww" />
+            android:layout_marginLeft="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="158dp" />
     </RelativeLayout>
 
 

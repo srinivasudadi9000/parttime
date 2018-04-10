@@ -13,11 +13,12 @@ public class SimpleSplash extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.simple_splash);
-/*
-
-        Animation rotation = AnimationUtils.loadAnimation(SimpleSplash.this,R.anim.rotation);
+        image_home = (ImageView) findViewById(R.id.image_home);
+       /* Animation rotation = AnimationUtils.loadAnimation(SimpleSplash.this,R.anim.blinking);
         image_home.startAnimation(rotation);
-*/
+
+        Animation rr = AnimationUtils.loadAnimation(SimpleSplash.this,R.anim.rotation);
+        image_home.startAnimation(rr);*/
 
     }
 }
