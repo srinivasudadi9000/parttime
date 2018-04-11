@@ -5,6 +5,7 @@ import android.content.Context;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Vibrator;
 import android.support.annotation.RequiresApi;
 import android.view.animation.Animation;
@@ -28,7 +29,12 @@ public class SimpleSplash_withsmall_needle extends Activity {
 
         selection(getIntent().getStringExtra("selected"));
 
-
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                finish();
+            }
+        }, 6800);
     }
 
     public void selection(String selected) {

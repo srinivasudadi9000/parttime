@@ -10,18 +10,21 @@
     tools:context="com.example.admin.myapplication.Home">
 
     <Button
+        android:enabled="false"
         android:id="@+id/simplesplash"
         android:text="Simple Splash Screen"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:enabled="false"
         android:id="@+id/simplesplash_withsmallanim"
         android:text="Template 1"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:enabled="false"
         android:id="@+id/simplesplash_withbiganim"
         android:text="Template 2"
         android:textStyle="bold"
@@ -37,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:enabled="false"
         android:id="@+id/simplesplash_withbigneedle"
         android:text="Template 4"
         android:textStyle="bold"
