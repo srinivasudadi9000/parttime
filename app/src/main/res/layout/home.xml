@@ -17,30 +17,34 @@
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/simplesplash_withsmallanim"
-        android:text="Simple Splash with small animation "
+        android:text="Template 1"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/simplesplash_withbiganim"
-        android:text="Simple Splash Screen with Big Animation"
+        android:text="Template 2"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/agri"
         android:id="@+id/simplesplash_withsmallneedle"
-        android:text="Simple Splash Screen with   Animation only small needle"
+        android:text="Template 3"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/simplesplash_withbigneedle"
-        android:text="Simple Splash Screen with Animation only Big  needle"
+        android:text="Template 4"
         android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
+        android:visibility="gone"
         android:id="@+id/simplesplash_withbigneedlewithcolor"
         android:text="Simple Splash Screen with Animation only Big needle with color change"
         android:textStyle="bold"

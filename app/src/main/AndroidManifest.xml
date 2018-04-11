@@ -8,12 +8,13 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/partime_logo_dadi"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Home">
@@ -39,13 +40,15 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".SimpleSplash"></activity>
-        <activity android:name=".SimpleSplash_withsmall_anim"></activity>
-        <activity android:name=".SimpleSplash_withbig_anim"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".SimpleSplash_withsmall_needle"></activity>
-        <activity android:name=".SimpleSplash_withbig_needle"></activity>
-        <activity android:name=".SimpleSplash_withbig_needle_withcolor"></activity>
+        <activity android:name=".SimpleSplash" />
+        <activity android:name=".SimpleSplash_withsmall_anim" />
+        <activity
+            android:name=".SimpleSplash_withbig_anim"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SimpleSplash_withsmall_needle" />
+        <activity android:name=".SimpleSplash_withbig_needle" />
+        <activity android:name=".SimpleSplash_withbig_needle_withcolor" />
+        <activity android:name=".Sounds"></activity>
     </application>
 
 </manifest>

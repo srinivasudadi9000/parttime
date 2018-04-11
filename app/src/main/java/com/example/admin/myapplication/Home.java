@@ -30,7 +30,7 @@ public class Home extends Activity implements View.OnClickListener {
         simplesplash_withsmallanim.setOnClickListener(this);
         simplesplash_withbiganim.setOnClickListener(this);
         simplesplash_withbigneedle.setOnClickListener(this);
-        simplesplash_withbigneedlewithcolor.setOnClickListener(this);
+       // simplesplash_withbigneedlewithcolor.setOnClickListener(this);
 
     }
 
@@ -55,7 +55,7 @@ public class Home extends Activity implements View.OnClickListener {
                 break;
             case R.id.simplesplash_withsmallneedle:
                 simplesplash_withsmallneedle.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                Intent simplesplash_withsmallneedle1 = new Intent(Home.this, SimpleSplash_withsmall_needle.class);
+                Intent simplesplash_withsmallneedle1 = new Intent(Home.this, Sounds.class);
                 startActivity(simplesplash_withsmallneedle1);
                 break;
             case R.id.simplesplash_withbigneedle:
